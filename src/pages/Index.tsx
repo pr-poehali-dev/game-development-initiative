@@ -40,7 +40,7 @@ const Index = () => {
     {
       id: 1,
       character: 'Дарк Какао',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/62837394-eecf-4659-8110-84cb6b9f4476.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b5687c84-913a-4a63-986c-458a60475161.jpg',
       text: '*вздыхает* Метель усиливается. Границы нуждаются в укреплении, а я здесь...',
       choices: [
         { text: 'Позволить Аффогато помочь', affectionChange: 15 },
@@ -72,7 +72,7 @@ const Index = () => {
     {
       id: 4,
       character: 'Дарк Какао',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/62837394-eecf-4659-8110-84cb6b9f4476.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b5687c84-913a-4a63-986c-458a60475161.jpg',
       text: '*устало снимает доспехи после долгого дня* Мне нужно принять ванну... Слуги могут уйти, я справлюсь сам.',
       choices: [
         { text: 'Пойти в ванную комнату', affectionChange: 0 }
@@ -103,7 +103,7 @@ const Index = () => {
     {
       id: 7,
       character: 'Дарк Какао',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/62837394-eecf-4659-8110-84cb6b9f4476.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b5687c84-913a-4a63-986c-458a60475161.jpg',
       text: '*напряжённо* Аффогато... Это была просто служанка, выполняющая свои обязанности. Почему ты так реагируешь на каждого, кто приближается ко мне?',
       choices: [
         { text: 'Потребовать объяснений', affectionChange: -25 },
@@ -124,7 +124,7 @@ const Index = () => {
     {
       id: 9,
       character: 'Дарк Какао',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/62837394-eecf-4659-8110-84cb6b9f4476.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b5687c84-913a-4a63-986c-458a60475161.jpg',
       text: '*смотрит в окно на метель* Аффогато, как долго ты уже служишь мне? Иногда мне кажется, что ты знаешь обо мне больше, чем я сам...',
       choices: [
         { text: 'Это успокаивает.', affectionChange: 15 },
