@@ -29,7 +29,7 @@ const Index = () => {
     {
       id: 0,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: 'Ваше величество... Вы снова работаете всю ночь. Прошу вас, отдохните. Я так беспокоюсь о вашем здоровье.',
       choices: [
         { text: 'Ты прав, Аффогато. Я устал.', affectionChange: 20 },
@@ -61,7 +61,7 @@ const Index = () => {
     {
       id: 3,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*появляется из тени* Я слышал разговор с генералом. *холодная улыбка* Не доверяйте ему, ваше величество. Некоторые из военных совета... не так преданны, как кажется.',
       choices: [
         { text: 'Ты всегда защищаешь меня...', affectionChange: 20 },
@@ -81,7 +81,7 @@ const Index = () => {
     {
       id: 5,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*мягко входит в ванную* Ваше величество, позвольте мне помочь вам. *улыбается* Вы так устали, что даже руки дрожат. Я уже приготовил воду с травами для расслабления.',
       choices: [
         { text: 'Аффогато, я не просил тебя...', affectionChange: -10 },
@@ -92,7 +92,7 @@ const Index = () => {
     {
       id: 6,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*осторожно моет спину короля* Ваше величество... я заметил, что служанка сегодня смотрела на вас. *голос становится холоднее* Я уже позаботился о том, чтобы её перевели в дальнее крыло замка.',
       choices: [
         { text: 'Зачем ты это сделал?', affectionChange: -20 },
@@ -113,7 +113,7 @@ const Index = () => {
     {
       id: 8,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*его руки замирают, голос дрожит* Потому что... они не достойны даже смотреть на вас. *шёпот* Только я. С того дня, как впервые увидел вас... я понял, что должен защищать вас от всех. От каждого взгляда, от каждого прикосновения... которое не моё.',
       choices: [
         { text: 'Аффогато, это нездорово...', affectionChange: -30 },
@@ -144,7 +144,7 @@ const Index = () => {
     {
       id: 11,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*неожиданно появляется рядом* Ваше величество, я уже здесь. *мягко улыбается* Я всегда чувствую, когда вы нуждаетесь в компании. Сад прекрасен в это время, не правда ли?',
       choices: [
         { text: 'Как ты узнал, что я здесь?', affectionChange: -20 },
@@ -164,7 +164,7 @@ const Index = () => {
     {
       id: 13,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*невинно* О, я просто попросил стражу не пускать никого в сад на ближайший час. *приближается* Подумал, что вам нужен покой. Только мы двое, ваше величество. Разве не этого вы хотели?',
       choices: [
         { text: 'Я не давал такого приказа!', affectionChange: -25 },
@@ -185,7 +185,7 @@ const Index = () => {
     {
       id: 15,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*холодно смотрит на генерала* Я ведь просил стражу никого не пускать... *поворачивается к королю с улыбкой* Ваше величество, может, генерал подождёт? Мы так редко проводим время вместе...',
       choices: [
         { text: 'Дела королевства важнее.', affectionChange: -20 },
@@ -196,7 +196,7 @@ const Index = () => {
     {
       id: 16,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*приближается* С того самого дня, когда я впервые увидел вас на троне... Вы были таким величественным, таким недостижимым. *шёпот* Я поклялся себе, что буду рядом. Всегда. Только я достоин быть рядом с вами.',
       choices: [
         { text: 'Я благодарен за твою преданность.', affectionChange: 25 },
@@ -236,7 +236,7 @@ const Index = () => {
     {
       id: 20,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*мягко* Прошу прощения за вторжение, ваше величество. *приближается к постели* Я не мог уснуть... Всё думал о вас. Вы не можете себе представить, как сильно я переживаю за вас каждую ночь.',
       choices: [
         { text: 'Аффогато, сейчас глубокая ночь!', affectionChange: -20 },
@@ -247,7 +247,7 @@ const Index = () => {
     {
       id: 21,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*садится на край постели* Я приходил проверить, спите ли вы спокойно. *нежно касается руки короля* Вы так часто видите кошмары... Я слышу, как вы кричите по ночам. Позвольте мне остаться рядом.',
       choices: [
         { text: 'Ты... следишь за мной по ночам?!', affectionChange: -30 },
@@ -268,7 +268,7 @@ const Index = () => {
     {
       id: 23,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*его взгляд становится безумным* Всегда. Каждую ночь. *шёпотом* Я не могу спать, зная, что вы там, одни... Что если кто-то попытается навредить вам? Что если вам приснится кошмар и некому будет вас утешить? *сжимает руку короля* Только я могу защитить вас. Только я понимаю вас.',
       choices: [
         { text: 'Это безумие, Аффогато!', affectionChange: -40 },
@@ -279,7 +279,7 @@ const Index = () => {
     {
       id: 24,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*приближает лицо к королю* Скажите мне... скажите, что я нужен вам так же, как вы нужны мне. *дрожащим голосом* С того дня, как я был ребёнком и впервые увидел вас... моё сердце принадлежит только вам. Каждый вдох, каждая мысль... всё для вас.',
       choices: [
         { text: 'Ты нужен мне, Аффогато.', affectionChange: 35 },
@@ -290,7 +290,7 @@ const Index = () => {
     {
       id: 25,
       character: 'Аффогато',
-      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/b7690366-d974-436e-a70e-2b7bb0bc4e0d.jpg',
+      image: 'https://cdn.poehali.dev/projects/bd364782-8da8-4698-9feb-714752b0aae3/files/05a74013-1534-4d28-afd5-5b13ebd1d1c2.jpg',
       text: '*его глаза горят холодным огнём* Ваше величество... Вы ведь понимаете, что я делаю всё это только для вас? *голос дрожит* Никто не должен стоять между нами. Никто. Никогда.',
       choices: [
         { text: 'Ты единственный, кому я могу доверять.', affectionChange: 30 },
