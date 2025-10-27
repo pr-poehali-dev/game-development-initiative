@@ -446,19 +446,84 @@ const Index = () => {
 
             {!dialogue.choices && isTextComplete && (
               <div className="text-center">
-                <div className="mb-6 p-6 bg-slate-800/50 rounded-lg">
-                  <p className="text-2xl font-cormorant text-purple-300 mb-3">
-                    {affection >= 70 && suspicion < 40 ? '❄️ Финал: Вечная преданность' : 
-                     affection >= 70 && suspicion >= 40 ? '⚠️ Финал: Опасная близость' :
-                     affection >= 40 ? '💭 Финал: Тревожная неопределённость' : 
-                     '🖤 Финал: Холодное отдаление'}
+                <div className="mb-6 p-6 bg-slate-800/50 rounded-lg border-2 border-purple-500/30">
+                  <p className="text-3xl font-cormorant text-purple-300 mb-4">
+                    {affection >= 80 && suspicion < 30 ? '💜 Финал: Взаимная одержимость' : 
+                     affection >= 60 && suspicion < 50 ? '❄️ Финал: Вечная преданность' :
+                     affection >= 60 && suspicion >= 50 ? '⚠️ Финал: Позолоченная клетка' :
+                     affection >= 30 && suspicion >= 60 ? '👁️ Финал: Побег из тени' :
+                     '🖤 Финал: Изгнание советника'}
                   </p>
-                  <p className="text-sm text-muted-foreground font-cormorant">
-                    {affection >= 70 && suspicion < 40 ? 'Аффогато навсегда остался рядом с королём. Его чувства были приняты...' :
-                     affection >= 70 && suspicion >= 40 ? 'Король чувствует странность в поведении советника, но уже слишком поздно...' :
-                     affection >= 40 ? 'Дарк Какао продолжает работать, не замечая истинных намерений своего советника.' :
-                     'Король отдалился от Аффогато, почувствовав опасность.'}
-                  </p>
+                  
+                  <div className="space-y-3 text-left">
+                    {affection >= 80 && suspicion < 30 ? (
+                      <>
+                        <p className="text-base text-foreground font-cormorant leading-relaxed">
+                          Дарк Какао принял одержимость Аффогато и ответил взаимностью. Советник стал не просто приближённым — он стал единственным человеком, которому король доверяет полностью.
+                        </p>
+                        <p className="text-sm text-muted-foreground font-cormorant italic">
+                          Генерал и придворные больше не имеют доступа к королю. Аффогато контролирует каждый аспект жизни Дарк Какао, но король счастлив в этих объятиях. Королевство процветает под их совместным правлением, хотя многие шепчутся о странной близости правителя и советника...
+                        </p>
+                        <p className="text-sm text-purple-300 font-cormorant">
+                          "Мы будем вместе вечно, ваше величество. Никто и ничто не разлучит нас."
+                        </p>
+                      </>
+                    ) : affection >= 60 && suspicion < 50 ? (
+                      <>
+                        <p className="text-base text-foreground font-cormorant leading-relaxed">
+                          Король доверился Аффогато, приняв его преданность как искреннюю заботу. Советник остался рядом, продолжая наблюдать за каждым шагом правителя.
+                        </p>
+                        <p className="text-sm text-muted-foreground font-cormorant italic">
+                          Дарк Какао не замечает, как постепенно отдаляется от других придворных. Аффогато мягко направляет каждое решение короля, изолируя его от внешнего мира. Генерал перестал приходить с докладами. Служанки боятся поднять глаза на короля. Но Дарк Какао чувствует себя защищённым...
+                        </p>
+                        <p className="text-sm text-purple-300 font-cormorant">
+                          "Я всегда буду рядом, чтобы оберегать вас."
+                        </p>
+                      </>
+                    ) : affection >= 60 && suspicion >= 50 ? (
+                      <>
+                        <p className="text-base text-foreground font-cormorant leading-relaxed">
+                          Король понял, что поведение Аффогато ненормально, но уже слишком привязался к советнику, чтобы прогнать его. Теперь он пойман в ловушку собственных чувств.
+                        </p>
+                        <p className="text-sm text-muted-foreground font-cormorant italic">
+                          Дарк Какао знает, что Аффогато следит за каждым его шагом, контролирует придворных, устраняет всех, кто приближается к королю. Он видит безумие в глазах советника, но не может оттолкнуть его. Страх смешался с привязанностью. Королевство медленно погружается в изоляцию под тенью их токсичных отношений...
+                        </p>
+                        <p className="text-sm text-purple-300 font-cormorant">
+                          "Вы мой, ваше величество. И я — ваш. Навсегда."
+                        </p>
+                      </>
+                    ) : affection >= 30 && suspicion >= 60 ? (
+                      <>
+                        <p className="text-base text-foreground font-cormorant leading-relaxed">
+                          Дарк Какао наконец осознал опасность и решил действовать. С помощью генерала он раскрыл истинное лицо Аффогато и изгнал советника из замка.
+                        </p>
+                        <p className="text-sm text-muted-foreground font-cormorant italic">
+                          Аффогато был отправлен в дальние земли под стражей. Но перед отъездом он прошептал: "Вы ещё пожалеете об этом, ваше величество. Никто не сможет заботиться о вас так, как я." Дарк Какао вернулся к своим обязанностям, но иногда по ночам он ловит себя на том, что оглядывается в темноту, ожидая увидеть знакомый силуэт...
+                        </p>
+                        <p className="text-sm text-blue-300 font-cormorant">
+                          "Я буду ждать. Вы вернётесь ко мне."
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <p className="text-base text-foreground font-cormorant leading-relaxed">
+                          Король немедленно отстранил Аффогато от должности, почувствовав угрозу. Советник был изгнан из королевства под конвоем.
+                        </p>
+                        <p className="text-sm text-muted-foreground font-cormorant italic">
+                          Аффогато исчез в метели, бросив последний взгляд на замок. Дарк Какао усилил охрану и вернулся к работе с другими советниками. Но странные слухи доходят до замка — некоторые путники клянутся, что видели фигуру в чёрно-фиолетовом ханьфу, наблюдающую за воротами королевства из-за деревьев...
+                        </p>
+                        <p className="text-sm text-slate-400 font-cormorant">
+                          "Расстояние ничего не значит. Я всё ещё слежу за вами."
+                        </p>
+                      </>
+                    )}
+                  </div>
+                  
+                  <div className="mt-4 pt-4 border-t border-purple-500/20">
+                    <p className="text-xs text-muted-foreground">
+                      Преданность: {affection}% | Подозрение: {suspicion}%
+                    </p>
+                  </div>
                 </div>
                 <Button
                   onClick={() => {
